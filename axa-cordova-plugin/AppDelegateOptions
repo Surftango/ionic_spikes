@@ -1,0 +1,28 @@
+Make each of these entries are on a single line
+
+These are the optional flags
+
+SDKDefault
+SDKLogLevelSilent
+SDKLogLevelVerbose
+SDKCheckProfileOnRestartOnly
+SDKUseNetworkProtocolSwizzling
+SDKNoNetworkSwizzling
+SDKNoWorkLightSwizzling
+SDKNoGeoLocationCapturing
+SDKCollectDeviceName
+SDKUIWebViewDelegate
+SDKFixedViewTitles
+SDKNoCrashReporting
+
+Also note that SDK options be or'd together if you want to use multiple options
+ex : SDKNoCrashReporting | SDKFixedViewTitles | SDKNoNetworkSwizzling
+
+
+___FULLUSERNAME___= John Snow
+___ORGANIZATIONNAME___ = The organization
+___YEAR___ = 2017
+___OPTIONS___ = SDKUseNetworkProtocolSwizzling | SDKLogLevelSilent
+
+
+
